@@ -1,0 +1,19 @@
+.m-checkbox {
+    display: flex;
+    align-items: center;
+}
+.m-checkbox .checkbox-input {
+    width: 24px;
+    height: 24px;
+}
+
+.m-checkbox .icon-checkbox-inactive:hover {
+    background-image: url('../../assets/icon/ic_Checkbox_Hover.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.m-checkbox .checkbox-text {
+    padding-left: 8px;
+    color: #212121;
+}

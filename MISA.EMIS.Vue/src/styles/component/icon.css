@@ -1,0 +1,257 @@
+.icon {
+
+}
+
+.icon-search {
+    background-image: url('../../assets/icon/Ic_seerch.png');
+    background-size: 24px 24px;
+    background-repeat: no-repeat;
+    background-position: 8px center;
+}
+
+.icon-dropdown {
+    background-image: url('../../assets/icon/ic_Chevron.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.icon-math {
+    background-image: url('../../assets/icon/toan.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.icon-dashboard {
+    background-image: url('../../assets/icon/ic_dashboard.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.icon-class {
+    background-image: url('../../assets/icon/ic_class.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.icon-document {
+    background-image: url('../../assets/icon/ic_document.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+.icon-toggle {
+    background-image: url('../../assets/icon/ic_toggle.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.icon-setting {
+    background-image: url('../../assets/icon/ic_setting.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.icon-chat {
+    background-image: url('../../assets/icon/ic_chat.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.icon-notifi {
+    background-image: url('../../assets/icon/ic_notifi.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.icon-avatar {
+    background-image: url('../../assets/icon/ic_avatar.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.icon-more {
+    background-image: url('../../assets/icon/ic_more.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.icon-hoclieu {
+    background-image: url('../../assets/icon/ic_hoclieu.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.icon-back {
+    background-image: url('../../assets/icon/ic_back.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.icon-english-logo {
+    background-image: url('../../assets/icon/img_eng.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.icon-drop_file {
+    background-image: url('../../assets/icon/ic_drop_file.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.icon-select-answer {
+    background-image: url('../../assets/icon/ic_select_answer.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.icon-true-false {
+    background-image: url('../../assets/icon/ic_true-false.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.icon-fill-blank {
+    background-image: url('../../assets/icon/ic_fill_blank.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.icon-essay {
+    background-image: url('../../assets/icon/ic_essay.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.icon-view {
+    background-image: url('../../assets/icon/ic_view.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.icon-delete {
+    background-image: url('../../assets/icon/ic_delete.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.icon-duplicate {
+    background-image: url('../../assets/icon/ic_duplicate.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.icon-x-2 {
+    background-image: url('../../assets/icon/icon_x.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.icon-eng-2 {
+    background-image: url('../../assets/icon/img_eng_2.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.icon-photo {
+    background-image: url('../../assets/icon/ic_Photo_36.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.icon-x {
+    background-image: url('../../assets/icon/ic_x.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.icon-uncheck {
+    background-image: url('../../assets/icon/icon-checked.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.icon-more-2 {
+    background-image: url('../../assets/icon/ic_more_2.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.icon-checked {
+    background-image: url('../../assets/icon/ic_Checkbox_Active.png');
+    background-repeat: no-repeat;
+    background-size: 36px 36px;
+    background-position: center;
+}
+
+.icon-toast-success {
+    background-image: url('../../assets/icon/ic_ToastMessage_Success.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.icon-toast-warning {
+    background-image: url('../../assets/icon/ic_ToastMessage_Warning.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.icon-toast-error {
+    background-image: url('../../assets/icon/ic_ToastMessage_Fail.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.icon-question-left {
+    background-image: url('../../assets/icon/ic-question-left.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.icon-question-right {
+    background-image: url('../../assets/icon/ic_question_right.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.icon-back-to-question {
+    background-image: url('../../assets/icon/ic_back_to_question.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.icon-toan {
+    background-image: url('../../assets/icon/toan.png');
+    background-size: cover;
+}
+
+.icon-nguvan {
+    background-image: url('../../assets/icon/nguvan.png');
+    background-size: cover;
+}
+
+.icon-tienganh {
+    background-image: url('../../assets/icon/tienganh.png');
+    background-size: cover;
+}
+
+.icon-lichsu {
+    background-image: url('../../assets/icon/lichsu.png');
+    background-size: cover;
+}
+
+.icon-diali {
+    background-image: url('../../assets/icon/diali.png');
+    background-size: cover;
+}
+
+.icon-gdcd {
+    background-image: url('../../assets/icon/gdcd.png');
+    background-size: cover;
+}
+
+.icon-plus {
+    background-image: url('../../assets/icon/ic_Plus.png');
+    background-size: cover;
+}

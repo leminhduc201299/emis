@@ -1,0 +1,126 @@
+.m-popup {
+    position: fixed; 
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    /* display: none; */
+}
+
+.m-popup .m-popup-modal {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.4;
+    background-color: #000;
+}
+
+.m-popup .m-popup-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background-color: #fff;
+    opacity: 1;
+    border-radius: 4px;
+
+    max-width: 500px;
+}
+
+/* Header */
+.m-popup .m-popup-header {
+    padding: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.m-popup-header .m-infor-title {
+    font-size: 20px;
+    color: #000;
+    line-height: 30px;
+    font-weight: normal;
+    width: auto;
+}
+
+.m-popup .m-popup-header .m-popup-header-icon {
+    position: absolute;
+    top: 12px;
+    margin: 0;
+    height: 22px;
+    width: 22px;
+}
+
+.m-popup .m-popup-header .m-popup-header-icon-close {
+    right: 12px;
+}
+
+.m-popup .m-popup-header .m-popup-header-close:hover {
+    background-color: #E9EBEE;
+    cursor: pointer;
+}
+
+
+/* Footer */
+.m-popup .m-popup-footer {
+    display: flex;
+    align-items: center;
+    background-color: #E5E5E5;
+    height: 60px;
+    border-radius: 0 0 4px 4px;
+    padding: 0 24px;
+}
+
+.m-popup .m-popup-footer .m-popup-footer-button {
+    position: relative;
+    right: 0;
+    display: flex;
+    width: 100%;
+    justify-content: right;
+}
+
+.m-popup .m-popup-footer .m-popup-footer-button button {
+    margin-left: 16px;
+}
+
+.m-popup .m-popup-footer .m-popup-footer-button .m-btn-cancel {
+    background-color: #E5E5E5;
+    color: #000;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.m-popup .m-popup-footer .m-popup-footer-button .m-btn-delete {
+    background-color: #F65454;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.m-popup .m-popup-footer .m-popup-footer-button .m-btn-cancel:hover {
+    background-color: #2FBE8E;
+}
+
+/* Content */
+.m-popup .m-popup-content {
+    padding: 0 24px;
+    margin-bottom: 24px;
+    display: flex;
+}
+
+
+
+.m-popup .m-popup-content-left .m-popup-icon{
+    width: 36px;
+    height: 36px;
+    background-color: #E5E5E5;
+    border-radius: 50%;
+}
+
+
+.m-popup .m-popup-content .m-popup-content-right {
+    margin-left: 10px;
+    position: relative;
+}

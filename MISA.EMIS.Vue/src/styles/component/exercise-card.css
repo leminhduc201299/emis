@@ -1,0 +1,150 @@
+.m-exercise-card {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    /* overflow: hidden; */
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .16);
+}
+
+.m-exercise-card .m-exercise-img {
+    height: 123px;
+    background-position: center;
+    border-radius: 10px 10px 0 0;
+}
+
+.m-exercise-card .m-exercise-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.m-exercise-img .m-exercise-subject {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #8a6bf6;
+    padding: 0 12px 0 8px;
+    height: 36px;
+    width: fit-content;
+    border-radius: 10px 0 10px 0;
+    text-align: center;
+    line-height: 36px;
+
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.m-exercise-card .m-exercise-info {
+    height: 77px;
+    width: 100%;
+    padding: 16px;
+    box-sizing: border-box;
+}
+
+.m-exercise-info .m-exercise-info-top {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+    height: 20px;
+}
+
+.m-exercise-info-top .m-exercise-name {
+    font-size: 16px;
+    font-weight: 700;
+    color: #4e5b6a;
+    cursor: pointer;
+}
+
+.m-exercise-info-top .m-exercise-info-top-right {
+    position: absolute;
+    right: 0;
+
+    height: 20px;
+    width: 6px;
+    cursor: pointer;
+}
+
+.m-exercise-info .m-exercise-info-bottom {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.m-exercise-info .m-exercise-info-bottom-length {
+    display: flex;
+    align-items: center;
+}
+
+.m-exercise-info-bottom .m-exercise-info-bottom-icon {
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+}
+
+.m-exercise-info-bottom .m-exercise-description {
+    color: #4e5b6a;
+}
+
+.m-exercise-info .m-exercise-info-bottom-status {
+    border-radius: 4px;
+    padding: 0 6px;
+    height: 20px;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: center;
+    margin-left: 13px;
+}
+
+.m-exercise-info .m-exercise-info-bottom-status-unfinished {
+    background-color: #e8e1fd;
+    color: #8a6bf6;
+}
+
+.m-exercise-info .m-exercise-info-bottom-status-finished {
+    background-color: rgba(0,169,236,.15);
+    color: #00a9ec;
+}
+
+.m-more {
+    /* width: 130px; */
+    border-radius: 6px;
+    position: absolute;
+    right: 4px;
+    top: 103%;
+    background-color: #fff;
+    z-index: 9999;
+    border: 1px solid #d5d8e6;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 16%);
+    z-index: 100;
+    padding: 4px 0;
+}
+
+.m-more .m-more-item {
+    display: flex;
+    height: 36px;
+    align-items: center;
+    padding: 0 12px;
+}
+
+.m-more .m-more-item:hover {
+    background-color: #f1f2f7;
+}
+
+.m-more .m-more-icon {
+    width: 22px;
+    height: 22px;
+    margin-right: 10px;
+}
+
+.m-more .m-more-text {
+    opacity: 0.9;
+    white-space: nowrap;
+}
+
+

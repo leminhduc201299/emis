@@ -1,0 +1,9 @@
+.m-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.m-form-group {
+    display: block;
+    margin-bottom: 17px;
+}

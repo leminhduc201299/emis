@@ -1,0 +1,26 @@
+.m-editable {
+    width: 100%;
+    height: 59px;
+    max-height: 180px;
+    box-sizing: border-box;
+    padding: 0 8px 8px 8px;
+    margin: 0 !important;
+    font-size: 18px;
+    font-weight: 700;
+    color: #4e5b6a;
+    
+    border: none;
+    outline: none;
+    /* overflow: hidden; */
+    resize: none;
+    background-color: unset;
+    text-align: center;
+}
+
+.m-editable:placeholder-shown {
+    line-height: 100%;
+}
+
+/* .m-editable[contentEditable=true]:empty:before{
+    content:attr(data-text)
+} */

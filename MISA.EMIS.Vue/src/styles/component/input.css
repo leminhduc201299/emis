@@ -1,0 +1,46 @@
+.m-input {
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 1px solid #b6b9ce;
+    height: 40px;
+    overflow: hidden;
+    padding: 0 12px;
+    align-content: center;
+    color: #4e5b6a;
+
+    outline: none;
+    box-sizing: border-box;
+}
+
+.m-input:focus {
+}
+
+.m-input::placeholder {
+    color: #a4a6b7;
+}
+
+.m-input-icon {
+    padding-left: 35px;
+}
+
+
+
+.m-input-label {
+    display: block;
+    font-weight: 500;
+    color: #4e5b6a;
+    margin-bottom: 5px;
+}
+
+/* .w-100 {
+    width: 100px;
+}
+
+.w-110 {
+    width: 110px;
+} */
+
+.m-span-require {
+    color: #FF4747;
+    font-size: 16px;
+}

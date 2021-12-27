@@ -1,0 +1,41 @@
+.m-loading {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.m-loading-modal {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.2;
+    background-color: #000;
+}
+
+.m-loading .m-loading-icon {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: calc(50% - 20px);
+    left: calc(50% - 20px);
+    border: 6px solid rgb(214, 214, 214);
+    border-top-color: #07d;
+    border-radius: 50%;
+}
+
+.m-loading .m-loading-icon {
+    animation: rotation 1s infinite linear;
+  }
+  
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+}

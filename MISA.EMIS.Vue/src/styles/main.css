@@ -1,0 +1,82 @@
+﻿@import url('./component/button.css');
+@import url('./component/icon.css');
+@import url('./component/input.css');
+@import url('./component/combobox.css');
+@import url('./component/exercise-card.css');
+@import url('./component/dialog.css');
+@import url('./component/gird.css');
+@import url('./component/editable.css');
+@import url('./component/select-tag.css');
+@import url('./component/popup.css');
+@import url('./component/toastify.css');
+@import url('./component/loading.css');
+@import url('./component/validate.css');
+@import url('./component/solution.css');
+@import url('./component/tooltip.css');
+/* 
+
+@import url('./component/table.css');
+@import url('./component/checkbox.css');
+ */
+
+@font-face {
+    font-family: 'GoogleSans-Bold';
+    src: url('../assets/font/GoogleSans-Bold.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'GoogleSans-BoldItalic';
+    src: url('../assets/font/GoogleSans-BoldItalic.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'GoogleSans-Italic';
+    src: url('../assets/font/GoogleSans-Italic.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'GoogleSans-Medium';
+    src: url('../assets/font/GoogleSans-Medium.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'GoogleSans-MediumItalic';
+    src: url('../assets/font/GoogleSans-MediumItalic.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'GoogleSans-Regular';
+    src: url('../assets/font/GoogleSans-Regular.woff2') format('woff2');
+}
+
+
+body {
+    font-family: 'GoogleSans-Regular';
+    font-size: 13px;
+    margin: 0;
+}
+
+.align-left {
+    text-align: left;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.m-cursor-pointer:hover{
+    cursor: pointer;
+}
+
+.active {
+    background-color: #019160;
+    color: #ffffff;
+}
+
+button {
+    outline: none;
+}

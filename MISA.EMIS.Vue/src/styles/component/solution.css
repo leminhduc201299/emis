@@ -1,0 +1,26 @@
+.m-dialog .m-solution-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    opacity: 1;
+    border-radius: 10px;
+}
+
+.m-solution-box .m-solution-body {
+    background-color: #fff2ab;
+    border-radius: 10px;
+    max-width: 1060px;
+    width: 80vw;
+    height: 600px;
+    overflow: hidden;
+}
+
+.m-solution-body .m-solution-footer {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 24px;
+    bottom: 24px;
+}

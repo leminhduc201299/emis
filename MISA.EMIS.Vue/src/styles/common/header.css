@@ -1,0 +1,97 @@
+.header {
+    width: 100vw;
+    height: 64px;
+    background-color: #ffffff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .16);
+
+    /* float: right; */
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+/* Header left */
+.header .header-left {
+    margin-left: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.header-left .header-left-navitem {
+    display: flex;
+    align-items: center;
+    margin-right: 36px;
+    padding: 0 8px;
+    height: 64px;
+    box-sizing: border-box;
+}
+
+.header-left .header-left-navitem:hover {
+    cursor: pointer;
+}
+
+.header-left-navitem .header-left-navitem-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.header-left-navitem .header-left-navitem-text {
+    font-size: 16px;
+    font-weight: 500;
+    color: #4e5b6a;
+}
+
+.header-left .navitem-active {
+    color: #8a6bf6;
+    border-bottom: 3px solid #8a6bf6;
+}
+
+.header-left .navitem-active .header-left-navitem-text {
+    color: #8a6bf6;
+}
+
+
+/* Header right */
+.header .header-right {
+    position: absolute;
+    right: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.header-right .header-right-item {
+    margin-left: 16px;
+}
+
+.header-right .header-right-icon {
+    width: 24px;
+    height: 24px;
+    position: relative;
+}
+
+.header-right .header-right-icon .notifi-number {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    right: -3px;
+    top: -6px;
+    border-radius: 50%;
+    background-color: rgb(255, 104, 104);
+    text-align: center;
+    font-size: 12px;
+    font-weight: 700;
+    color: #ffffff;
+    line-height: 16px;
+}
+
+.header-right .header-right-name {
+    font-size: 16px;
+    font-weight: 700;
+    color: #4e5b6a;
+}
+
+.header-right .header-right-avatar {
+    height: 47px;
+    width: 47px;
+}

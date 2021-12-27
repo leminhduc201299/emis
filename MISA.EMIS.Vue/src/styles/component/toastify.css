@@ -1,0 +1,51 @@
+.m-toast {
+    position: fixed;
+    min-height: 80px;
+    min-width: 300px;
+    max-width: 400px;
+    border-radius: 6px;
+    background-color: #fff;
+    bottom: 20px;
+    right: 20px;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 16%);
+    border-left: 6px solid #15c068;
+
+    display: flex;
+    align-items: center;
+}
+
+.m-toast-warning {
+    border-left-color: #e0ca48;
+}
+
+.m-toast-error {
+    border-left-color: #ff7777;
+}
+
+.m-toast-icon-left {
+    margin-left: 18px;
+    height: 36px;
+    width: 36px;
+}
+
+.m-toast-content {
+    margin: 18px;
+}
+
+.m-toast-content .m-toast-title {
+    font-size: 20px;
+    margin-bottom: 2px;
+    font-weight: 500;
+}
+
+.m-toast-content .m-toast-text {
+    font-size: 13px;
+}
+
+.m-toast-icon-right {
+    height: 24px;
+    width: 24px;
+    position: absolute;
+    right: 12px;
+    cursor: pointer;
+}
